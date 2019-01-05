@@ -30,9 +30,9 @@
         possimus tempore incidunt corrupti voluptate eligendi dolorum ad labore
         culpa pariatur dolor accusantium, animi praesentium nemo, vero et.
       </p>
-      <form method="post">
+      <form method="post" action="submit.php">
         <div>
-          <label for="firstName">First Name</label><br />
+          <label for="firstName">First Name</label>
           <input
             type="text"
             id="firstName"
@@ -40,6 +40,29 @@
             placeholder="First Name"
           />
         </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div>
+          <label for="one">One</label>
+          <input type="radio" name="one" id="one" value="one" checked />
+          <label for="two">Two</label>
+          <input type="radio" name="two" id="two" value="two" />
+          <label for="three">Three</label>
+          <input type="radio" name="three" id="three" value="three" />
+        </div>
+        <div>
+          <label for="agree">Agree</label> <input type="checkbox" id="agree" />
+        </div>
+        <select name="sel" id="sel">
+          <option value="one">One</option>
+          <option value="two">Two</option>
+          <option value="three" selected>Three</option>
+        </select>
+        <textarea name="mes" id="mess" cols="30" rows="10">
+          content is what the user adds
+        </textarea>
         <div><input type="submit" value="click me" /></div>
       </form>
     </section>
