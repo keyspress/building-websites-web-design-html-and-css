@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.4em;
 }
 
 a {
@@ -22,8 +23,30 @@ header p {
   background-color: aquamarine;
   font-size: 20px;
   color: blanchedalmond;
+  font-size: 1em;
 }
 
 img {
   float: right;
+}
+
+.nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav li {
+  list-style-type: none;
+  float: left;
+  border: 1px solid #eee;
+}
+
+.nav li a {
+  background-color: azure;
+  padding: 10px;
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: saddlebrown;
 }
