@@ -50,3 +50,8 @@ img {
 .nav li a:hover {
   background-color: saddlebrown;
 }
+
+.inline {
+  display: inline;
+  border-radius: 45px;
+}
